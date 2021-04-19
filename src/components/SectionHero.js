@@ -4,7 +4,7 @@ import _ from 'lodash';
 import {toStyleObj, withPrefix, markdownify} from '../utils';
 import CtaButtons from './CtaButtons';
 
-export default function SectionHero() {
+export default function SectionHero() => {
     render() {
         let section = _.get(this.props, 'section', null);
         return (
