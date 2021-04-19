@@ -5,7 +5,6 @@ import {toStyleObj, withPrefix, markdownify} from '../utils';
 import CtaButtons from './CtaButtons';
 
 export default function SectionHero() => {
-    return (
         let section = _.get(this.props, 'section', null);
         return (
             <section id={_.get(section, 'section_id', null)} className="block block-hero has-gradient outer">
