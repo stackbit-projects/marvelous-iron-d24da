@@ -32,7 +32,7 @@ export default class Page extends React.Component {
                     </div>
                     )}
                   </div>
-                </header>
+                </header>a
                 <div className="inner-md outer">
                   <div className="post-content">
                     {htmlToReact(_.get(this.props, 'pageContext.html', null))}
